@@ -1,0 +1,74 @@
+html {
+    font-family: 'Noto Sans JP';
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;200;300;400;500;600;700;800;900&display=swap');
+.custom-bg {
+    background: url('../img/background.png');
+    background-size: 100% auto;
+}
+
+@media (max-width: 550px) {
+    .custom-bg {
+        background: none;
+    }
+}
+
+.swiper-button-next::after {
+    display: none;
+}
+
+.swiper-button-prev::after {
+    display: none;
+}
+
+.accordion-content {
+    transition: max-height 0.3s ease-out, padding 0.3s ease;
+}
+
+.custom-gradient {
+    background: linear-gradient(to right, #FFC700, #FF9F00, #FFC867, #FF9F00);
+}
+
+@media (max-width: 640px) {
+    .custom-gradient {
+        background-image: radial-gradient(at top right, #FFC867, #FF9F00, #FFC700);
+    }
+}
+
+.radient-fix-bg {
+    background: radial-gradient(at top right, #FFC867, #FF9F00, #FFC700);
+}
+
+@font-face {
+    font-family: 'notosans';
+    src: url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;200;300;400;500;600;700;800;900&display=swap');
+}
+
+.font-sans {
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.letter-space-6 {
+    letter-spacing: 6px;
+}
+
+.letter-space-2 {
+    letter-spacing: 2px;
+}
+
+@media (min-width: 768px) {
+    .md\:letter-space-14 {
+        letter-spacing: 14px;
+    }
+}
+
+.fa-plus::before,
+.fa-minus::before {
+    font-size: 24px;
+}
+
+.top-\[25px\] {
+    top: 25px;
+}
